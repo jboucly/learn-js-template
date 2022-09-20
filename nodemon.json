@@ -1,0 +1,6 @@
+{
+  "watch": ["src/"],
+  "ext": "ts,json",
+  "ignore": [],
+  "exec": "rimraf dist && tsc && ts-node main.ts"
+}
